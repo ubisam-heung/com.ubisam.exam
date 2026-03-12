@@ -41,10 +41,10 @@
 			<artifactId>spring-boot-starter-data-rest</artifactId>
 		</dependency>
 		<dependency>
-            <groupId>io.u2ware.common</groupId>
-            <artifactId>u2ware-common-data</artifactId>
-            <version>3.5.11</version>
-        </dependency>
+			<groupId>io.u2ware.common</groupId>
+			<artifactId>u2ware-common-data</artifactId>
+			<version>3.5.11</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.hsqldb</groupId>
@@ -68,12 +68,12 @@
 			<artifactId>spring-restdocs-mockmvc</artifactId>
 			<scope>test</scope>
 		</dependency>
-        <dependency>
-            <groupId>io.u2ware.common</groupId>
-            <artifactId>u2ware-common-docs</artifactId>
-            <version>3.5.11</version>
-			<scope>test</scope>
-        </dependency>
+    <dependency>
+				<groupId>io.u2ware.common</groupId>
+				<artifactId>u2ware-common-docs</artifactId>
+				<version>3.5.11</version>
+				<scope>test</scope>
+    </dependency>
 	</dependencies>
 
 	<build>

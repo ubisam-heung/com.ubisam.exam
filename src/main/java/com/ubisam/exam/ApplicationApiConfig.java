@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 // import com.ubisam.exam.domain.Address;
 
 @Configuration
-// @EnableRestfulJpaRepositories
+@EnableRestfulJpaRepositories
 @EnableJpaRepositories
 public class ApplicationApiConfig implements RepositoryRestConfigurer{
     @Override
